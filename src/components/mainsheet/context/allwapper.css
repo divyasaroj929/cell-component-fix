@@ -1,0 +1,6 @@
+.posision-between-nav-and-side {
+  position: absolute;
+  padding: 5px 20px;
+  top: 5rem;
+  left: 10rem;
+}
