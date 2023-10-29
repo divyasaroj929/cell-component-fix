@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cell-component-fix/static/css/main.fb85035b.css",
+    "main.js": "/cell-component-fix/static/js/main.d61c931b.js",
+    "index.html": "/cell-component-fix/index.html",
+    "main.fb85035b.css.map": "/cell-component-fix/static/css/main.fb85035b.css.map",
+    "main.d61c931b.js.map": "/cell-component-fix/static/js/main.d61c931b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb85035b.css",
+    "static/js/main.d61c931b.js"
+  ]
+}
