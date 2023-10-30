@@ -11,17 +11,15 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/cell-component-fix">
-        <Routes>
-          <Route exactpath="/cell-component-fix" element={<Home />} />
-          <Route path="/yourwork" element={<YourWork />} />
-          <Route path="/pullrequest" element={<PullRequest />} />
-          <Route path="/repositories" element={<Repositories />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/people" element={<People />} />
-          <Route path="/more" element={<More />} />
-        </Routes>
-      </BrowserRouter>
+      <Routes>
+        <Route exactpath="/cell-component-fix" element={<Home />} />
+        <Route path="/yourwork" element={<YourWork />} />
+        <Route path="/pullrequest" element={<PullRequest />} />
+        <Route path="/repositories" element={<Repositories />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/people" element={<People />} />
+        <Route path="/more" element={<More />} />
+      </Routes>
     </div>
   );
 }
