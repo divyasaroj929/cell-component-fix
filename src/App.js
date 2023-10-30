@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route exactpath="/cell-component-fix" element={<Home />} />
+        <Route exact path="/cell-component-fix" element={<Home />} />
         <Route path="/yourwork" element={<YourWork />} />
         <Route path="/pullrequest" element={<PullRequest />} />
         <Route path="/repositories" element={<Repositories />} />
