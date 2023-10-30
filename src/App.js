@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/navbar/All-component/Home";
 import YourWork from "./components/navbar/All-component/YourWork";
 import PullRequest from "./components/navbar/All-component/PullRequest";
@@ -11,15 +11,17 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/yourwork" element={<YourWork />} />
-        <Route path="/pullrequest" element={<PullRequest />} />
-        <Route path="/repositories" element={<Repositories />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/people" element={<People />} />
-        <Route path="/more" element={<More />} />
-      </Routes>
+      <BrowserRouter basename="/cell-component-fix">
+        <Routes>
+          <Route exactpath="/cell-component-fix" element={<Home />} />
+          <Route path="/yourwork" element={<YourWork />} />
+          <Route path="/pullrequest" element={<PullRequest />} />
+          <Route path="/repositories" element={<Repositories />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/people" element={<People />} />
+          <Route path="/more" element={<More />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
