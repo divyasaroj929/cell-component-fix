@@ -8,7 +8,7 @@ const Navbar = () => {
     { icon: <BsGrid3X3GapFill /> },
     {
       name: "Home",
-      path: "/",
+      path: "/cell-component-fix",
     },
     {
       name: "Your Work",
